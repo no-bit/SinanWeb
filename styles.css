@@ -1,0 +1,54 @@
+#hi img {
+    width: 100%;
+    height: auto;
+}
+.text-body-secondary {
+    color: white;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #050440, #0d00be);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.background-image {
+    background-image: url(./Burak/winter.jpeg);
+    background-size: cover;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 3rem;
+  }
+  .typing img {
+    width: 80%;
+    
+
+  }
+  
+  .chilli-img {
+    width: 80%;
+    
+  }
+
+  .eng-img {
+    width: 80%;
+  }
